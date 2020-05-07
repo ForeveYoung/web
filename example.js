@@ -1,9 +1,11 @@
-if (age < 3) {
-  message = 'Здравствуй, малыш!';
-} else if (age < 18) {
-  message = 'Привет!';
-} else if (age < 100) {
-  message = 'Здравствуйте!';
-} else {
-  message = 'Какой необычный возраст!';
+function al(){
+  for(var i=1; i<16; i++){
+    document.getElementById('exp').innerHTML = i;
+  }
+}
+
+function app (){
+  for(var i=1; i<16; i++){
+    document.write(i);
+  }
 }
