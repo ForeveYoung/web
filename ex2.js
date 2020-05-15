@@ -12,11 +12,9 @@ starwars : 'https://www.youtube.com/watch?v=0GLbwkfhYZk',
 doom : 'https://www.youtube.com/watch?v=FkklG9MA0vM'
 }
 
-let gameName;
 function watchYoutubeTrailer(gameName) {
     if (confirm("Подивитися трейлер?")){
-
-    switch (x) {
+    switch (gameName) {
         case 'stranding':  location.href = YoutubeTrailers.stranding ;
         break;
         case 'devilsHunt':  location.href = YoutubeTrailers.devilsHunt ;
