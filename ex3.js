@@ -1,4 +1,4 @@
-let btn = document.getElementById('btn');
+let btn = document.querySelector('#btn');
 btn.addEventListener('click', paragraphClick);
 
 
